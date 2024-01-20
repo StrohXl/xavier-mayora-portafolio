@@ -1,9 +1,12 @@
 <template>
   <div>
     <Header />
-    <div id="Hero" class="py-8"></div>
-    <NuxtPage />
-    <Footer/>
+    <main id="main">
+      <div id="Hero" class="py-8"></div>
+      <NuxtPage />
+      <SectionsNetworks />
+    </main>
+    <Footer />
   </div>
 </template>
 <style lang="postcss">

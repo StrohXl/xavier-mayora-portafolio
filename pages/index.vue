@@ -2,7 +2,6 @@
   <SectionsHero />
   <SectionsProjects />
   <SectionsSkills />
+  <CallToAction/>
   <SectionsAbout />
-  <SectionsNetworks/>
-  <SectionsContact />
 </template>

@@ -10,7 +10,7 @@ defineProps({
         ? 'button-outlined'
         : type == 'contained'
         ? 'button-contained'
-        : ''
+        : 'button-text'
     "
   >
     <slot />
@@ -23,7 +23,11 @@ defineProps({
   @apply hover:border-primary   dark:hover:border-primaryDark;
 }
 #button-contained {
-@apply px-7 py-0.5 bg-primary text-white transition-colors duration-300 rounded-sm shadow-sm cursor-pointer font-medium;
-@apply hover:bg-green-600;
+@apply px-7 py-0.5  bg-primary text-white transition-colors duration-500 rounded-sm shadow-sm cursor-pointer font-medium;
+@apply hover:bg-gray-800 ;
 }
+#button-text {
+  @apply px-7 py-0.5 text-primary cursor-pointer;
+
+  }
 </style>

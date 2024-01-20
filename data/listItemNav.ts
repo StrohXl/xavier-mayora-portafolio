@@ -46,11 +46,6 @@ const listItemNav: ModelListItem[] = [
     id: "About",
     icon: "user",
   },
-  {
-    title: "Redes",
-    position: "networks",
-    id: "Networks",
-    icon: "contact",
-  },
+
 ];
 export default listItemNav;

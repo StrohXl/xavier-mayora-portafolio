@@ -19,25 +19,35 @@ const Skills: { title: string; skills: { title: string; icon: string }[] }[] = [
         icon: "skills/react",
       },
       {
-        title: "Next",
-        icon: "skills/nextjs",
-      },
-      {
         title: "Vue",
         icon: "skills/vue",
       },
       {
-        title: "Nuxt",
-        icon: "skills/nuxt",
-      },
-      {
-        title: "Tailwindcss",
-        icon: "skills/tailwindcss",
+        title: "Next",
+        icon: "skills/nextjs",
       },
       {
         title: "Sass",
         icon: "skills/sass",
       },
+      {
+        title: "Redux",
+        icon: "skills/redux",
+      },
+
+      {
+        title: "Nuxt",
+        icon: "skills/nuxt",
+      },
+      {
+        title: "Vuetify",
+        icon: "skills/vuetify",
+      },
+      {
+        title: "Tailwindcss",
+        icon: "skills/tailwindcss",
+      },
+
       {
         title: "Material UI",
         icon: "skills/materialui",
@@ -61,12 +71,24 @@ const Skills: { title: string; skills: { title: string; icon: string }[] }[] = [
         icon: "skills/nestjs",
       },
       {
-        title: "Next",
-        icon: "skills/nextjs",
+        title: "TypeORM",
+        icon: "skills/typeorm",
       },
       {
-        title: "React",
-        icon: "skills/react",
+        title: "PostgreSQL",
+        icon: "skills/postgresql",
+      },
+      {
+        title: "MySQL",
+        icon: "skills/mysql",
+      },
+      {
+        title: "Git",
+        icon: "skills/git",
+      },
+      {
+        title: "ExpressJs",
+        icon: "skills/expressjs",
       },
     ],
   },

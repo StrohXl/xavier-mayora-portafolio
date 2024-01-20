@@ -21,7 +21,7 @@
         usarlos para mejorar nuestras vidas.
       </p>
       <div class="flex justify-center">
-        <ButtonsButton @click="moveScroll('Contact')" type="outlined" class="mt-8">Contactame</ButtonsButton>
+        <ButtonsButton @click="moveScroll('Contact')" type="contained" class="mt-8">Contactame</ButtonsButton>
       </div>
     </div>
   </section>

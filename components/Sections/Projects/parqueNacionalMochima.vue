@@ -28,7 +28,7 @@ import { SwiperSlide } from "swiper/vue";
           ><NuxtPicture src="/mochima1.png" />
         </swiper-slide>
       </SwipersSwiper>
-      <p class="text-left mt-6 relative z-10 ">
+      <p class="text-left mt-6 relative z-10 line-clamp-3 ">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
         praesentium natus sapiente nulla perspiciatis tempore voluptatibus.
         Corrupti velit debitis, minus est sit vel dignissimos deserunt eaque

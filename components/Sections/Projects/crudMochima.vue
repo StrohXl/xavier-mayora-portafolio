@@ -22,7 +22,7 @@ import { SwiperSlide } from "swiper/vue";
           ><NuxtPicture src="/crud-mochima-4.png" />
         </swiper-slide>
       </SwipersSwiper>
-      <p class="text-justify mt-6">
+      <p class="text-justify mt-6 line-clamp-3">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
         praesentium natus sapiente nulla perspiciatis tempore voluptatibus.
         Corrupti velit debitis, minus est sit vel dignissimos deserunt eaque
