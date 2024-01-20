@@ -4,8 +4,8 @@ import { SwiperSlide } from "swiper/vue";
 <template>
   <div id="mochima" class="mt-14 relative">
     <div class="px-7">
-      <h3 class="mb-5 text-2xl font-bold flex gap-3 items-center">
-        <Icon id="remove-fill" class="!text-3xl text-primary" name="projects/movie" />
+      <h3 class="mb-5 text-2xl md:text-3xl font-bold flex gap-3 items-center">
+        <Icon id="remove-fill" class="!text-3xl md:!text-4xl text-primary" name="projects/movie" />
         VueAnime
       </h3>
       <SwipersSwiper>
@@ -30,7 +30,7 @@ import { SwiperSlide } from "swiper/vue";
       </p>
     </div>
     <div class="flex justify-center mt-4 gap-3">
-      <NuxtLink class="relative z-10" to="/projects/parque-nacional-mochima">
+      <NuxtLink class="relative z-10" to="/projects/vue-anime">
         <ButtonsButton type="outlined" class="mt-2"> Ver mas </ButtonsButton>
       </NuxtLink>
     </div>

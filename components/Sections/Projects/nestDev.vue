@@ -4,8 +4,8 @@ import { SwiperSlide } from "swiper/vue";
 <template>
   <div id="mochima" class="mt-14 relative">
     <div class="px-7">
-      <h3 class="mb-5 text-2xl font-bold flex gap-3">
-        <Icon class="!text-3xl text-primary" name="projects/dashboard" />
+      <h3 class="mb-5 font-bold text-2xl md:text-3xl flex gap-3">
+        <Icon class="!text-3xl md:!text-4xl text-primary" name="projects/dashboard" />
         Dashboard Nest
       </h3>
       <SwipersSwiper style="aspect-ratio: 1.8;" >
@@ -30,7 +30,7 @@ import { SwiperSlide } from "swiper/vue";
       </p>
     </div>
     <div class="flex justify-center mt-4 gap-3">
-      <NuxtLink class="relative z-10" to="/projects/parque-nacional-mochima">
+      <NuxtLink class="relative z-10" to="/projects/dashboard-nest">
         <ButtonsButton type="outlined" class="mt-2"> Ver mas </ButtonsButton>
       </NuxtLink>
     </div>

@@ -11,11 +11,10 @@ onMounted(() => {
 </script>
 <template>
   <nav
-    style="max-width: 1200px"
-    class="py-3 relative lg:mx-auto xl:px-0 z-20 md:py-5 px-7 backdrop-blur-sm flex justify-between items-center"
+    class="max-w-5xl 2xl:max-w-6xl py-3 relative lg:mx-auto z-20 md:py-4 px-7 backdrop-blur-sm flex justify-between items-center"
   >
     <h2
-      class="font-extrabold text-2xl"
+      class="font-extrabold !text-2xl md:!text-3xl "
       @click="components.changeOpenDrawer(false)"
     >
       <NuxtLink class="flex" to="/" @click="moveScroll('Hero')">
@@ -23,7 +22,7 @@ onMounted(() => {
         <span class="text-primary dark:text-primary">folio</span>
       </NuxtLink>
     </h2>
-    <ul class="gap-8 hidden md:flex">
+    <ul class="gap-4 lg:gap-5 hidden md:flex">
       <li
         :class="
           route.query.position == i.position &&
@@ -63,7 +62,7 @@ onMounted(() => {
       type="contained"
       class="hidden lg:flex"
     >
-      Contactame
+    Contáctame
     </ButtonsButton>
   </nav>
   <Drawer />

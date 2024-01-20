@@ -2,14 +2,14 @@
 import ListItemNav from "~/data/listItemNav";
 </script>
 <template>
-  <footer class="dark:bg-gray-800 bg-gray-900 text-white pt-10 pb-5 px-7 mt-10">
+  <footer class="dark:bg-gray-800 bg-gray-900 text-white pt-16 pb-5 px-7">
     <h2 class="text-center text-2xl font-extrabold flex justify-center">
       Porta
       <span class="text-primary dark:text-primaryDark"> folio </span>
     </h2>
-    <ul class="grid gap-3 mt-10 justify-center">
+    <ul class="grid gap-3 mt-10 justify-center sm:flex md:gap-4 ">
       <li
-        class="text-center text-xl  items-center font-semibold hover:text-primaryDark hover:dark:text-primary"
+        class="text-center text-lg items-center font-semibold hover:text-primaryDark hover:dark:text-primary"
         v-for="i in ListItemNav"
         v-bind:key="i.id"
       >
@@ -24,28 +24,28 @@ import ListItemNav from "~/data/listItemNav";
     </ul>
     <div class="flex justify-center mt-10 gap-3">
       <a
-        class="grayscale hover:grayscale-0"
+        class="grayscale "
         target="_blank"
         href="https://github.com/StrohXl"
       >
         <Icon name="github" class="hover:tra !text-xl hover:filter-none" />
       </a>
       <a
-        class="grayscale hover:grayscale-0"
+        class="grayscale "
         target="_blank"
         href="https://api.whatsapp.com/send?phone=+5804126947694&text=Hola"
       >
         <Icon name="whatsapp" class="hover:tra !text-xl" filled />
       </a>
       <a
-        class="grayscale hover:grayscale-0"
+        class="grayscale "
         target="_blank"
         href="https://www.linkedin.com/in/xavier-mayora-083874255/"
       >
         <Icon filled name="linkedin" class="hover:tra !text-xl" />
       </a>
       <a
-        class="grayscale hover:grayscale-0"
+        class="grayscale "
         target="_blank"
         href="mailto:xaviermayora20@gmail.com?subject=Developer Full Stack&body=Hola"
       >

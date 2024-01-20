@@ -6,7 +6,7 @@ export default {
     extend: {
       colors: {
         primary: "#00c16a",
-        primaryDark: "#00dc82",
+        primaryDark: "#00a662",
       },
       fontFamily: {
         custom: ["CustomFont", "sans-serif"],
@@ -16,6 +16,12 @@ export default {
       },
       width: {
         86: "22rem",
+        102: "26rem",
+        103: "26.5rem",
+        104: "27rem",
+        108: "30rem",
+        116: "39rem",
+
       },
       fontSize:{
         '10xl': '10rem',
@@ -30,6 +36,10 @@ export default {
         '28xl': '28rem',
 
 
+      },
+      maxWidth:{
+        "5xl": "64rem",
+        "6xl": "75rem"
       }
     },
   },

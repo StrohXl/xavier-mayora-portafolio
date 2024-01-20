@@ -1,16 +1,18 @@
 <template>
   <div>
-    <Header />
     <main id="main">
-      <div id="Hero" class="py-8"></div>
       <NuxtPage />
-      <SectionsNetworks />
     </main>
-    <Footer />
   </div>
 </template>
 <style lang="postcss">
 body {
   @apply dark:bg-gray-900 dark:text-white text-gray-800;
+}
+h2 {
+  @apply md:!text-4xl 2xl:!text-5xl font-extrabold;
+}
+p {
+  @apply text-sm sm:text-base 2xl:text-lg;
 }
 </style>

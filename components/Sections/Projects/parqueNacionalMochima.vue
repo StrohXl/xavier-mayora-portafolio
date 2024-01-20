@@ -4,9 +4,9 @@ import { SwiperSlide } from "swiper/vue";
 <template>
   <div id="mochima" class="mt-14 relative">
     <div class="px-7">
-      <h3 class="mb-5 text-2xl font-bold flex gap-3">
+      <h3 class="mb-5 text-2xl md:text-3xl font-bold flex gap-3">
         <Icon
-          class="text-primaryDark dark:text-primary !text-3xl mt-2"
+          class="text-primaryDark dark:text-primary !text-3xl mt-2 md:!text-4xl"
           name="projects/beach"
         />
         Parque Nacional

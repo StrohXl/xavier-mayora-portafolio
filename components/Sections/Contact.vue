@@ -44,7 +44,7 @@ function handleSubmit(event: any) {
 <template>
   <section id="Contact" class="py-20">
     <div class="border-2 mx-7 p-7 rounded-md border-gray-700 pb-10">
-      <h2 class="text-center text-2xl font-bold">Contactame</h2>
+      <h2 class="text-center text-2xl ">Contactame</h2>
       <form @submit="handleSubmit" class="mt-10 grid grid-cols-2 gap-8">
         <div
           v-for="(item, index) in itemForms"
