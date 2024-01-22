@@ -10,7 +10,7 @@ body {
   @apply dark:bg-gray-900 dark:text-white text-gray-800;
 }
 h2 {
-  @apply md:!text-4xl 2xl:!text-5xl font-extrabold;
+  @apply !text-3xl md:!text-4xl 2xl:!text-5xl font-extrabold;
 }
 p {
   @apply text-sm sm:text-base 2xl:text-lg;

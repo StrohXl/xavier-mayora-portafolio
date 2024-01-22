@@ -16,16 +16,16 @@ import { SwiperSlide } from "swiper/vue";
 
       <SwipersSwiper>
         <swiper-slide class="rounded-md overflow-hidden"
-          ><NuxtPicture class="w-full" src="/mochima1.png" />
+          ><NuxtPicture class="w-full" src="/mochima-1.png" />
         </swiper-slide>
         <swiper-slide class="rounded-md overflow-hidden"
-          ><NuxtPicture src="/mochima1.png" />
+          ><NuxtPicture src="/mochima-2.png" />
         </swiper-slide>
         <swiper-slide class="rounded-md overflow-hidden"
-          ><NuxtPicture src="/mochima1.png" />
+          ><NuxtPicture src="/mochima-3.png" />
         </swiper-slide>
         <swiper-slide class="rounded-md overflow-hidden"
-          ><NuxtPicture src="/mochima1.png" />
+          ><NuxtPicture src="/mochima-4.png" />
         </swiper-slide>
       </SwipersSwiper>
       <p class="text-left mt-6 relative z-10 line-clamp-3 ">

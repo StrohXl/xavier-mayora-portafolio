@@ -4,13 +4,25 @@ import "swiper/css/effect-cards";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-defineProps(["spaceBetween", "autoplay", "pagination", "navigation", "modules"]);
+defineProps([
+  "spaceBetween",
+  "autoplay",
+  "pagination",
+  "navigation",
+  "modules",
+  "cubeEffect",
+  "grabCursor",
+  "effect"
+]);
 </script>
 <template>
   <swiper
     :spaceBetween="spaceBetween"
+    :effect="effect"
+    :grabCursor="grabCursor"
     :autoplay="autoplay"
     :pagination="pagination"
+    :cubeEffect="cubeEffect"
     :navigation="navigation"
     :modules="modules"
     class="w-full"
@@ -20,7 +32,7 @@ defineProps(["spaceBetween", "autoplay", "pagination", "navigation", "modules"])
 </template>
 
 <style lang="postcss">
-.swiper{
+.swiper {
   overflow: hidden !important;
 }
 </style>

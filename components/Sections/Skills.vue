@@ -27,7 +27,7 @@ import Skills from "../../data/skills";
               id="remove-fill-skills"
               :name="item.icon"
             />
-            <h4 class="text-center font-semibold mt-2">{{ item.title }}</h4>
+            <h4 class="text-center font-bold mt-2">{{ item.title }}</h4>
           </div>
           <div class="col-span-3 flex justify-center">
             <ButtonsButton

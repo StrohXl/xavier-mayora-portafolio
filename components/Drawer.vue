@@ -5,31 +5,62 @@ const components = useOpenComponents();
 <template>
   <nav
     id="drawer"
-    :style="
+    :style="`${
       components.openDrawer
-        ? `transform: translateY(1px) `
-        : 'transform: translateY(-200vw) '
-    "
-    class="left-0 absolute transition duration-200 z-10 w-full h-screen"
+        ? `transform: translateY(1px); opacity: 1;`
+        : 'transform: translateY(-200px); opacity: 0;'
+    }
+    transition-property: transform opacity; transition-duration: .3s
+    `"
+    class="left-0 absolute z-10 w-full h-screen"
   >
-    <ul
-      class="p-7 grid gap-3 dark:bg-gray-900/90 backdrop-blur-sm border-b-1 border-gray-800 w-full bg-white/90"
+    <div
+      class="dark:bg-gray-900/90 p-7 backdrop-blur-sm border-b-1 border-gray-800 w-full bg-white/90"
     >
-      <li
-        @click="components.changeOpenDrawer(false)"
-        class="text-lg hover:text-primary dark:hover:text-primary font-semibold cursor-pointer"
-        v-for="i in listItemNav"
-        v-bind:key="i.id"
-      >
-        <NuxtLink
-          class="flex gap-2 items-center"
-          :to="`/?position=${i.id}`"
-          @click="moveScroll(i.id)"
+      <ul class="grid gap-3">
+        <li
+          @click="components.changeOpenDrawer(false)"
+          class="text-lg hover:text-primary dark:hover:text-primary font-semibold cursor-pointer"
+          v-for="i in listItemNav"
+          v-bind:key="i.id"
         >
-          {{ i.title }}
-        </NuxtLink>
-      </li>
-    </ul>
+          <NuxtLink
+            class="flex gap-2 items-center"
+            :to="`/?position=${i.id}`"
+            @click="moveScroll(i.id)"
+          >
+            {{ i.title }}
+          </NuxtLink>
+        </li>
+      </ul>
+      <div class="flex justify-center mt-20 gap-5">
+        <a class="grayscale" target="_blank" href="https://github.com/StrohXl">
+          <Icon name="github" class="hover:tra !text-3xl hover:filter-none" />
+        </a>
+        <a
+          class="grayscale"
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=+5804126947694&text=Hola"
+        >
+          <Icon name="whatsapp" class="hover:tra !text-3xl" filled />
+        </a>
+        <a
+          class="grayscale"
+          target="_blank"
+          href="https://www.linkedin.com/in/xavier-mayora-083874255/"
+        >
+          <Icon filled name="linkedin" class="hover:tra !text-3xl" />
+        </a>
+        <a
+          class="grayscale"
+          target="_blank"
+          href="mailto:xaviermayora20@gmail.com?subject=Developer Full Stack&body=Hola"
+        >
+          <Icon filled name="gmail" class="hover:tra !text-3xl" />
+        </a>
+      </div>
+    </div>
+
     <div
       @click="components.changeOpenDrawer(false)"
       :class="`bg-transparent h-full ${

@@ -44,7 +44,7 @@ onMounted(() => {
         <SwitchMode class="ml-3" />
       </li>
     </ul>
-    <div class="grid grid-cols-2 gap-2 items-center md:hidden translate-x-8">
+    <div class="grid grid-cols-2 gap-4 items-center md:hidden translate-x-8">
       <SwitchMode class="" />
       <ButtonsButtonIcon
         v-if="!components.openDrawer"
