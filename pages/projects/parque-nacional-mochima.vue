@@ -5,24 +5,7 @@ const images = [
   "/mochima-3.png",
   "/mochima-4.png",
 ];
-const skills = [
-  {
-    icon: "skills/html5",
-    title: "Html5",
-  },
-  {
-    icon: "skills/css",
-    title: "Css",
-  },
-  {
-    icon: "skills/react",
-    title: "React",
-  },
-  {
-    icon: "skills/javascript",
-    title: "JavaScript",
-  },
-];
+import SkillsProJects from '../../data/skillsProjectjs'
 </script>
 <template>
   <Layout>
@@ -34,6 +17,6 @@ const skills = [
       linkPage="https://strohxl.github.io/MyFirstPage/"
       :images="images"
     />
-    <SectionsTechnologies :skills="skills" />
+    <SectionsTechnologies :frontend="SkillsProJects['parque-nacional-mochima'].frontend" />
   </Layout>
 </template>

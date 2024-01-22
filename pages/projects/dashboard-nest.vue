@@ -1,5 +1,7 @@
 <script lang="ts" setup>
 const images = ['/nest-dev-1.png','/nest-dev-2.png','/nest-dev-3.png','/nest-dev-4.png']
+import SkillsProJects from "../../data/skillsProjectjs";
+
 </script>
 <template>
    <Layout>
@@ -10,6 +12,10 @@ const images = ['/nest-dev-1.png','/nest-dev-2.png','/nest-dev-3.png','/nest-dev
       nameIcon="projects/dashboard"
       linkPage="https://strohxl.github.io/MyFirstPageOfAnime/"
       :images="images"
+    />
+    <SectionsTechnologies
+      :frontend="SkillsProJects['dashboard-nest'].frontend"
+      :backend="SkillsProJects['dashboard-nest'].backend"
     />
   </Layout>
 </template>

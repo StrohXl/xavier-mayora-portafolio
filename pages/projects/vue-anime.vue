@@ -1,5 +1,7 @@
 <script lang="ts" setup>
 const images = ['/vueanime-1.png','/vueanime-2.png','/vueanime-3.png','/vueanime-4.png']
+import SkillsProJects from "../../data/skillsProjectjs";
+
 </script>
 <template>
    <Layout>
@@ -10,6 +12,9 @@ const images = ['/vueanime-1.png','/vueanime-2.png','/vueanime-3.png','/vueanime
       nameIcon="projects/dashboard"
       linkPage="https://strohxl.github.io/MyFirstPageOfAnime/"
       :images="images"
+    />
+    <SectionsTechnologies
+      :frontend="SkillsProJects['vue-anime'].frontend"
     />
   </Layout>
 </template>

@@ -5,7 +5,7 @@
         id="call-to-action"
         class="md:mx-7 px-7 py-12 flex flex-col gap-6 2xl:gap-10 justify-between relative md:rounded-md"
       >
-        <h2 class="relative text-white z-10 !text-2xl md:!text-3xl 2xl:!text-4xl">
+        <h2 class="relative text-white z-10 !text-3xl md:!text-4xl 2xl:!text-5xl">
           ¡Contáctame
           <br class="sm:hidden" />
           hoy mismo!

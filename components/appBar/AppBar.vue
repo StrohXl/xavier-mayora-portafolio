@@ -22,7 +22,7 @@ onMounted(() => {
         <span class="text-primary dark:text-primary">folio</span>
       </NuxtLink>
     </h2>
-    <ul class="gap-4 lg:gap-5 hidden md:flex">
+    <ul class="gap-3 lg:gap-4 xl:gap-5 hidden md:flex">
       <li
         :class="
           route.query.position == i.position &&
@@ -41,7 +41,7 @@ onMounted(() => {
         </NuxtLink>
       </li>
       <li>
-        <SwitchMode class="ml-3" />
+        <SwitchMode class="ml-2" />
       </li>
     </ul>
     <div class="grid grid-cols-2 gap-4 items-center md:hidden translate-x-8">
@@ -60,7 +60,7 @@ onMounted(() => {
     <ButtonsButton
       @click="moveScroll('Contact')"
       type="contained"
-      class="hidden lg:flex"
+      class="hidden md:flex !text-base"
     >
     Contáctame
     </ButtonsButton>

@@ -11,7 +11,7 @@ import Skills from "../../data/skills";
     <div>
       <h2 class="text-center text-3xl md:text-4xl ">Habilidades</h2>
       <div class="mt-16 px-7 md:mt-20" v-for="i in Skills" v-bind:key="i.title">
-        <h3 class="text-center text-xl md:text-2xl font-bold">{{ i.title }}</h3>
+        <h3 class="text-center text-2xl 2xl::text-3xl font-bold">{{ i.title }}</h3>
         <div class="mt-10 grid gap-3 grid-cols-3 justify-center md:hidden sm:px-10">
           <div
             class="mb-5 flex flex-col items-center justify-center"

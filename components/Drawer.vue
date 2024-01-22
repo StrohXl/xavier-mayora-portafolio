@@ -8,11 +8,12 @@ const components = useOpenComponents();
     :style="`${
       components.openDrawer
         ? `transform: translateY(1px); opacity: 1;`
-        : 'transform: translateY(-200px); opacity: 0;'
+        : 'transform: translateY(-300px); opacity: 0;'
     }
     transition-property: transform opacity; transition-duration: .3s
     `"
-    class="left-0 absolute z-10 w-full h-screen"
+    class="left-0 absolute z-10 w-full "
+    :class="components.openDrawer? 'h-screen':'h-fit'"
   >
     <div
       class="dark:bg-gray-900/90 p-7 backdrop-blur-sm border-b-1 border-gray-800 w-full bg-white/90"
@@ -63,7 +64,7 @@ const components = useOpenComponents();
 
     <div
       @click="components.changeOpenDrawer(false)"
-      :class="`bg-transparent h-full ${
+      :class="`bg-transparent h-full md:hidden ${
         components.openDrawer ? 'flex' : 'hidden'
       }`"
     ></div>
