@@ -14,7 +14,7 @@ onMounted(() => {
     class="max-w-5xl 2xl:max-w-6xl py-3 relative lg:mx-auto z-20 md:py-4 px-7 backdrop-blur-sm flex justify-between items-center"
   >
     <h2
-      class="font-extrabold !text-2xl md:!text-3xl "
+      class="font-extrabold !text-2xl md:!text-3xl"
       @click="components.changeOpenDrawer(false)"
     >
       <NuxtLink class="flex" to="/" @click="moveScroll('Hero')">
@@ -47,14 +47,14 @@ onMounted(() => {
     <div class="grid grid-cols-2 gap-4 items-center md:hidden translate-x-8">
       <SwitchMode class="" />
       <ButtonsButtonIcon
-        v-if="!components.openDrawer"
+        v-if="components.openDrawer === false"
         name="menu"
-        @click.stop="components.changeOpenDrawer(!components.openDrawer)"
+        @click.stop="components.changeOpenDrawer(true)"
       />
       <ButtonsButtonIcon
-        v-if="components.openDrawer"
+        v-if="components.openDrawer === true"
         name="close"
-        @click="components.changeOpenDrawer(!components.openDrawer)"
+        @click.stop="components.changeOpenDrawer(false)"
       />
     </div>
     <ButtonsButton
@@ -62,7 +62,7 @@ onMounted(() => {
       type="contained"
       class="hidden md:flex !text-base"
     >
-    Contáctame
+      Contáctame
     </ButtonsButton>
   </nav>
   <Drawer />

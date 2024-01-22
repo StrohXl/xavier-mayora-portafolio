@@ -13,7 +13,7 @@ const modules = [Autoplay, Pagination, Navigation];
     :pagination="true"
     :modules="modules"
     id="swiperProjects"
-    class="rounded-md overflow-hidden"
+    class="rounded-md overflow-hidden sm:!hidden"
     style="width: 100%;height: auto; aspect-ratio: 1.77;"
   >
     <slot />

@@ -20,7 +20,6 @@ const components = useOpenComponents();
     >
       <ul class="grid gap-3">
         <li
-          @click="components.changeOpenDrawer(false)"
           class="text-lg hover:text-primary dark:hover:text-primary font-semibold cursor-pointer"
           v-for="i in listItemNav"
           v-bind:key="i.id"
@@ -28,7 +27,7 @@ const components = useOpenComponents();
           <NuxtLink
             class="flex gap-2 items-center"
             :to="`/?position=${i.id}`"
-            @click="moveScroll(i.id)"
+            @click="moveScroll(i.id); components.changeOpenDrawer(false)"
           >
             {{ i.title }}
           </NuxtLink>

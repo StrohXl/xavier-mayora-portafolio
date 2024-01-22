@@ -3,7 +3,7 @@ const images = [
   "/crud-mochima-1.png",
   "/crud-mochima-2.png",
   "/crud-mochima-3.png",
-  "/mochima-4.png",
+  "/crud-mochima-4.png",
 ];
 import SkillsProJects from "../../data/skillsProjectjs";
 </script>
@@ -11,8 +11,10 @@ import SkillsProJects from "../../data/skillsProjectjs";
   <Layout>
     <SectionsProjectsHeroProjects
       title="Crud Mochima"
-      :parrafo="`Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, blanditiis velit molestias, modi dicta accusantium placeat odit nulla obcaecati tempore perferendis mollitia quo facilis. Corporis nam voluptate dicta cupiditate facilis.
-`"
+      :parrafo="` Segundo
+    proyecto elaborado en React.Js, consiste en un crud de servicos, paquetes y
+    lista de reservaciones donde puedes crear, añadir, editar y eliminar datos,
+    para poder ingresar el usuario es 'admin' y la contraseña es 'admin'.`"
       nameIcon="projects/dashboard"
       linkPage="https://strohxl.github.io/SecondPage/"
       :images="images"

@@ -15,7 +15,7 @@ import { Swiper, SwiperSlide } from "swiper/vue";
         </h1>
       </div>
       <div
-        class="my-12 justify-center 2xl:justify-end row-span-2 md:mb-14 px-20 w-full max-w-xl m-auto md:max-w-max"
+        class="my-12 justify-center 2xl:justify-end row-span-2 md:mb-14 px-10 sm:px-20 w-full max-w-xl m-auto md:max-w-max"
       >
         <SwipersSwiperCube>
           <swiper-slide

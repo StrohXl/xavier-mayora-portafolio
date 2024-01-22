@@ -5,18 +5,21 @@ const images = [
   "/mochima-3.png",
   "/mochima-4.png",
 ];
-import SkillsProJects from '../../data/skillsProjectjs'
+import SkillsProJects from "../../data/skillsProjectjs";
 </script>
 <template>
   <Layout>
     <SectionsProjectsHeroProjects
       title="Parque Mochima"
-      :parrafo="`Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, blanditiis velit molestias, modi dicta accusantium placeat odit nulla obcaecati tempore perferendis mollitia quo facilis. Corporis nam voluptate dicta cupiditate facilis.
-`"
+      parrafo="Primer proyecto elaborado en React.Js, que tiene como objetivo
+        promocionar los Servicios y las Playas que ofrece el parque nacional
+        Mochima ademas de ofrecer informacion historica como su geolocalización."
       nameIcon="projects/beach"
       linkPage="https://strohxl.github.io/MyFirstPage/"
       :images="images"
     />
-    <SectionsTechnologies :frontend="SkillsProJects['parque-nacional-mochima'].frontend" />
+    <SectionsTechnologies
+      :frontend="SkillsProJects['parque-nacional-mochima'].frontend"
+    />
   </Layout>
 </template>
