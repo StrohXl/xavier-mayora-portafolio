@@ -1,7 +1,4 @@
 <template>
-  <head>
-    <title>Portafolio - Xavier Mayora</title>
-  </head>
   <Layout>
     <SectionsHero />
     <SectionsExperiencie />

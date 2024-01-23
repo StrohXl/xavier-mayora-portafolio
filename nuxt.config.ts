@@ -7,6 +7,18 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@pinia/nuxt",
   ],
+  app: {
+    head: {
+      title: "Portafolio - Xavier Mayora",
+      link: [
+        {
+          rel: "icon",
+          href: "/favicon.svg",
+        },
+      ],
+    },
+  },
+
   colorMode: {
     classSuffix: "",
   },

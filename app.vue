@@ -1,4 +1,8 @@
+
 <template>
+  <head>
+    <link rel="icon" href="/favicon.svg" />
+  </head>
   <div>
     <main id="main">
       <NuxtPage />
