@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as c,a}from"./entry.NQR86dDD.js";const o={},r=a("iframe",{src:"/cv-xaviermayora.pdf",title:"cv-xaviermayora",style:{width:"100vw",height:"100vh"}},null,-1),s=[r];function n(_,i){return c(),t("div",null,s)}const d=e(o,[["render",n]]);export{d as default};
