@@ -16,6 +16,9 @@ export default defineNuxtConfig({
           href: "/favicon.svg",
         },
       ],
+      meta:[
+        {name:"og:title",content:"epale"}
+      ]
     },
   },
 
