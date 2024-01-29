@@ -1,0 +1,4 @@
+import{_ as r,a as s,S as i}from"./skillsProjectjs.4Fwllken.js";import{k as m}from"./Layout.bKL8jnoY.js";import{g as c,o as u,h as p,w as _,b as e,u as l}from"./entry.Z60cATKN.js";import"./vue.f36acd1f.n01YrBlk.js";import"./nuxt-link.cuCh20-5.js";import"./nuxt-icon.vue.JOaBxL7q.js";const j=c({__name:"vue-anime",setup(d){const n=["/vueanime-1.png","/vueanime-2.png","/vueanime-3.png","/vueanime-4.png"];return(f,g)=>{const o=r,a=s,t=m;return u(),p(t,null,{default:_(()=>[e(o,{title:"VueAnime",parrafo:`     Inspirada en Youtube VueAnime fue mi primer proyecto elaborado en el\r
+        framework de NuxtJs de Vue, que se encarga de hacer solicitudes Get\r
+        usando Axios a una api llama Jikan la cual te regresa los datos de los\r
+        animes.`,nameIcon:"projects/dashboard",linkPage:"https://strohxl.github.io/MyFirstPageOfAnime/",images:n}),e(a,{frontend:l(i)["vue-anime"].frontend},null,8,["frontend"])]),_:1})}}});export{j as default};
