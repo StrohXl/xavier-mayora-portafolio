@@ -17,7 +17,9 @@ export default defineNuxtConfig({
         },
       ],
       meta:[
-        {name:"og:title",content:"epale"}
+        {name:"og:title",content:"Portafolio - Xavier Mayora"},
+        {name:"og:image",content:"/favicon.svg"},
+        {name:"og:description",content:"Soy desarrollador web con mas de 1 año de experiencia, amante nato de la tecnología, la programación y sus avances. Autodidacta de aquellos temas de mi interés y partidario de que el aprendizaje constante es algo necesario."}
       ]
     },
   },
