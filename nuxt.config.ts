@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: "Xavier Mayora Full Stack Developer",
+      title: "Portafolio - Xavier Mayora Full Stack Developer",
       link: [
         {
           rel: "icon",

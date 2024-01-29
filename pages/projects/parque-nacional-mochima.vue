@@ -1,4 +1,9 @@
 <script lang="ts" setup>
+useHead({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `Portafolio - Parque Nacional Mochima` : 'Site Title';
+  }
+})
 const images = [
   "/mochima-1.png",
   "/mochima-2.png",

@@ -1,4 +1,9 @@
 <script lang="ts" setup>
+useHead({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `Portafolio - Vue Anime` : 'Site Title';
+  }
+})
 const images = [
   "/vueanime-1.png",
   "/vueanime-2.png",

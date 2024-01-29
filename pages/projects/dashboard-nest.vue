@@ -1,4 +1,9 @@
 <script lang="ts" setup>
+useHead({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `Portafolio - Dashboard Nest` : 'Site Title';
+  }
+})
 const images = [
   "/nest-dev-1.png",
   "/nest-dev-2.png",
