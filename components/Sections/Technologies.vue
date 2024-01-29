@@ -20,7 +20,7 @@ defineProps(["frontend","backend"]);
         v-bind:key="index"
         class="flex justify-center items-center flex-col"
       >
-        <Icon filled class="!text-6xl md:!text-7xl" :name="item.icon" />
+        <Icon filled class="!text-6xl md:!text-7xl dark:grayscale dark:hover:grayscale-0" :name="item.icon" />
         <h4 class="text-center font-bold mt-2">{{ item.title }}</h4>
       </div>
       <h3
@@ -35,7 +35,7 @@ defineProps(["frontend","backend"]);
         class="flex justify-center items-center flex-col "
       
       >
-        <Icon filled class="!text-6xl md:!text-7xl" :name="item.icon" />
+        <Icon filled class="!text-6xl md:!text-7xl dark:grayscale dark:hover:grayscale-0" :name="item.icon" />
         <h4 class="text-center font-bold mt-2">{{ item.title }}</h4>
       </div>
     </div>

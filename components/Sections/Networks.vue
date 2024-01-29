@@ -6,25 +6,25 @@
         Puedes comunicarte conmigo atravez de mis redes
       </p>
       <div class="flex justify-center mt-5 gap-5">
-        <a class="grayscale" target="_blank" href="https://github.com/StrohXl">
+        <a class="dark:grayscale dark:hover:grayscale-0" target="_blank" href="https://github.com/StrohXl">
           <Icon name="github" class="hover:tra !text-4xl hover:filter-none" />
         </a>
         <a
-          class="grayscale"
+          class="dark:grayscale dark:hover:grayscale-0"
           target="_blank"
           href="https://api.whatsapp.com/send?phone=+5804126947694&text=Hola"
         >
           <Icon name="whatsapp" class="hover:tra !text-4xl" filled />
         </a>
         <a
-          class="grayscale"
+          class="dark:grayscale dark:hover:grayscale-0"
           target="_blank"
           href="https://www.linkedin.com/in/xavier-mayora-083874255/"
         >
           <Icon filled name="linkedin" class="hover:tra !text-4xl" />
         </a>
         <a
-          class="grayscale"
+          class="dark:grayscale dark:hover:grayscale-0"
           target="_blank"
           href="mailto:xaviermayora20@gmail.com?subject=Developer Full Stack&body=Hola"
         >

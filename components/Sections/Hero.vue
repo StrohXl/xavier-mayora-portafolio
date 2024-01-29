@@ -10,7 +10,7 @@
           Xavier Mayora
         </h2>
         <h1
-          class="!text-3xl font-extrabold md:!text-4xl 2xl:!text-5xl text-primary dark:text-pri maryDark tracking-wide"
+          class="!text-3xl font-bold md:!text-4xl 2xl:!text-5xl text-primary dark:text-pri maryDark tracking-wide"
         >
           Full Stack Developer
         </h1>
