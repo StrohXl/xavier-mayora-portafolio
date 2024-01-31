@@ -25,7 +25,7 @@ import { Swiper, SwiperSlide } from "swiper/vue";
           </swiper-slide>
         </SwipersSwiperCube>
       </div>
-      <div class="px-7 md:w-108 text-sm 2xl:w-116">
+      <div class="px-7 md:w-108 text-sm 2xl:w-116 mt-5">
         <p
           class="text-center md:text-base md:text-left max-w-xl mx-auto 2xl:text-lg"
         >

@@ -12,18 +12,32 @@ defineProps([
   "modules",
   "cubeEffect",
   "grabCursor",
-  "effect"
+  "effect",
+  "longSwipesMs",
+  "onSlideChange",
+  "onSlideChangeEnd",
+  "onSlideChangeStart",
+  "breakpoints",
+  "loop",
+  "allowTouchMove"
 ]);
 </script>
 <template>
   <swiper
     :spaceBetween="spaceBetween"
     :effect="effect"
+    :loop="loop"
+    :allowTouchMove="allowTouchMove"
+    :speed="longSwipesMs"
+    :onSlideChange="onSlideChange"
+    :onSlideChangeTransitionEnd="onSlideChangeEnd"
+    :onSlideChangeTransitionStart="onSlideChangeStart"
     :grabCursor="grabCursor"
     :autoplay="autoplay"
     :pagination="pagination"
     :cubeEffect="cubeEffect"
     :navigation="navigation"
+    :breakpoints="breakpoints"
     :modules="modules"
     class="w-full"
   >

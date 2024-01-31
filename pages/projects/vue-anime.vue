@@ -4,12 +4,8 @@ useHead({
     return titleChunk ? `Portafolio - Vue Anime` : 'Site Title';
   }
 })
-const images = [
-  "/vueanime-1.png",
-  "/vueanime-2.png",
-  "/vueanime-3.png",
-  "/vueanime-4.png",
-];
+import dataProjects from "~/data/proyects";
+
 import SkillsProJects from "../../data/skillsProjectjs";
 </script>
 <template>
@@ -22,7 +18,7 @@ import SkillsProJects from "../../data/skillsProjectjs";
         animes."
       nameIcon="projects/dashboard"
       linkPage="https://strohxl.github.io/MyFirstPageOfAnime/"
-      :images="images"
+      :images="dataProjects[2].images"
     />
     <SectionsTechnologies :frontend="SkillsProJects['vue-anime'].frontend" />
   </Layout>

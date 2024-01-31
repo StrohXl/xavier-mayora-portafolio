@@ -10,7 +10,7 @@ onMounted(() => {
 });
 </script>
 <template>
-  <section class="mt-32 2xl:mt-48 mb-10 2xl:mb-20 overflow-hidden">
+  <section class="mt-20 2xl:mt-32 mb-10 2xl:mb-20 overflow-hidden">
     <div class="mx-auto max-w-5xl 2xl:max-w-6xl">
       <div
         id="call-to-action"

@@ -4,12 +4,8 @@ useHead({
     return titleChunk ? `Portafolio - Dashboard Nest` : 'Site Title';
   }
 })
-const images = [
-  "/nest-dev-1.png",
-  "/nest-dev-2.png",
-  "/nest-dev-3.png",
-  "/nest-dev-4.png",
-];
+import dataProjects from "~/data/proyects";
+
 import SkillsProJects from "../../data/skillsProjectjs";
 </script>
 <template>
@@ -22,7 +18,7 @@ import SkillsProJects from "../../data/skillsProjectjs";
         subir imagenes cree mi propio backend usando Nest de Node."
       nameIcon="projects/dashboard"
       linkPage="https://nestxmdev.onrender.com/"
-      :images="images"
+      :images="dataProjects[3].images"
     />
     <SectionsTechnologies
       :frontend="SkillsProJects['dashboard-nest'].frontend"

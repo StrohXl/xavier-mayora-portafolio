@@ -1,15 +1,10 @@
 <script lang="ts" setup>
+import dataProjects from "~/data/proyects";
 useHead({
   titleTemplate: (titleChunk) => {
     return titleChunk ? `Portafolio - Crud Mochima` : 'Site Title';
   }
 })
-const images = [
-  "/crud-mochima-1.png",
-  "/crud-mochima-2.png",
-  "/crud-mochima-3.png",
-  "/crud-mochima-4.png",
-];
 import SkillsProJects from "../../data/skillsProjectjs";
 </script>
 <template>
@@ -22,7 +17,7 @@ import SkillsProJects from "../../data/skillsProjectjs";
     para poder ingresar el usuario es 'admin' y la contraseña es 'admin'.`"
       nameIcon="projects/dashboard"
       linkPage="https://strohxl.github.io/SecondPage/"
-      :images="images"
+      :images="dataProjects[0].images"
     />
     <SectionsTechnologies
       :frontend="SkillsProJects['parque-nacional-mochima'].frontend"
