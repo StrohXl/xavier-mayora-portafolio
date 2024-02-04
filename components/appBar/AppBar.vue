@@ -65,7 +65,7 @@ onMounted(() => {
       Contáctame
     </ButtonsButton>
   </nav>
-  <Drawer />
+  <AppBarDrawer />
 </template>
 <style>
 svg {

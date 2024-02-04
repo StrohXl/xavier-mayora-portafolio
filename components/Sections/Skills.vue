@@ -15,7 +15,7 @@ import Skills from "../../data/skills";
       <h2 class="text-center text-3xl md:text-4xl">Habilidades</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 px-7">
         <div class="mt-16 md:mt-20" v-for="i in Skills" v-bind:key="i.title">
-          <h3 class="text-center text-3xl font-bold">
+          <h3 class="text-center text-2xl sm:text-3xl font-bold">
             {{ i.title }}
           </h3>
           <div class="mt-10 grid gap-3 grid-cols-3 justify-center sm:px-5">
@@ -26,11 +26,12 @@ import Skills from "../../data/skills";
                 i.title == 'Frontend' ? frontend : backend
               )"
               v-bind:key="item.title"
+              id="cardTecnologies"
+
             >
               <Icon
                 filled
-                class="!text-6xl dark:grayscale dark:hover:grayscale-0"
-                id="remove-fill-skills"
+                class="!text-6xl dark:grayscale dark:hover:grayscale-0  dark:transition-transform dark:duration-700"
                 :name="item.icon"
               />
               <h4 class="text-center font-bold mt-2">{{ item.title }}</h4>

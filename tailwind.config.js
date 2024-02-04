@@ -40,7 +40,7 @@ export default {
       maxWidth:{
         "5xl": "64rem",
         "6xl": "75rem"
-      }
+      },
     },
   },
   plugins: [],

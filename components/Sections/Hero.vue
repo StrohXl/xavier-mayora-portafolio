@@ -5,7 +5,7 @@
         class="mt-6 flex flex-col justify-center px-7 text-center md:text-left md:w-108 2xl:w-116"
       >
         <h2
-          class=" !text-4xl md:!text-5xl 2xl:!text-6xl dark:text-white tracking-wide"
+          class="!text-4xl md:!text-5xl 2xl:!text-6xl dark:text-white tracking-wide"
         >
           Xavier Mayora
         </h2>
@@ -15,9 +15,9 @@
           Full Stack Developer
         </h1>
       </div>
-      <div class="my-8 flex justify-center 2xl:justify-end row-span-2 md:mb-14 ">
+      <div class="my-8 flex justify-center 2xl:justify-end row-span-2 md:mb-14">
         <NuxtPicture
-          class="overflow-hidden rounded-full w-52 h-52 md:w-64 md:h-64 2xl:w-80 2xl:h-80"
+          class="image overflow-hidden rounded-full w-52 h-52 md:w-64 md:h-64 2xl:w-80 2xl:h-80"
           src="/imagePortafolio.jpg"
         />
       </div>
@@ -41,3 +41,8 @@
     </div>
   </section>
 </template>
+<style>
+.image > img {
+  width: 100%;
+}
+</style>

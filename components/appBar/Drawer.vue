@@ -16,7 +16,7 @@ const components = useOpenComponents();
     :class="components.openDrawer? 'h-screen':'h-fit'"
   >
     <div
-      class="dark:bg-gray-900/90 p-7 backdrop-blur-sm border-b-1 border-gray-800 w-full bg-white/90"
+      class="dark:bg-gray-900/90 p-7 backdrop-blur-sm border-b-1 border-gray-800 w-full bg-gray-100/90"
     >
       <ul class="grid gap-3">
         <li

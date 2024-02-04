@@ -1,6 +1,6 @@
 <script setup>
 import { SwiperSlide } from "swiper/vue";
-import dataProjects from "../../data/proyects";
+import dataProjects from "../../data/projects";
 const position = ref(0);
 const start = ref(false);
 const end = ref(false);
@@ -49,6 +49,22 @@ const changeStart = () => {
               :src="item.images[0]"
               :alt="`image ${item.title}`"
             />
+            <div class="tecnologies transition-opacity  opacity-100 md:opacity-0 absolute flex gap-2 pl-7 sm:pl-4 md:pl-2 py-1 w-full bottom-0 bg-gray-900/90 overflow-hidden">
+              <nuxt-icon
+                filled
+                class="text-xl sm:text-4xl md:text-sm xl:text-xl"
+                v-for="i in item.tecnologies.frontend"
+                v-bind:key="i.title"
+                :name="i.icon"
+              />
+              <nuxt-icon
+                filled
+                class="text-xl sm:text-4xl md:text-sm xl:text-xl"
+                v-for="i in item.tecnologies.backend"
+                v-bind:key="i.title"
+                :name="i.icon"
+              />
+            </div>
             <div
               :class="`transition duration-700  absolute translate-y-8  z-10 w-full text-info`"
             >
@@ -56,7 +72,7 @@ const changeStart = () => {
                 {{ item.title }}
               </h3>
               <div class="mt-1 flex gap-4 justify-center">
-                <a target="_blank" :href="item.linkProject" >
+                <a target="_blank" :href="item.linkProject">
                   <ButtonsButton class="md:!text-xs !px-2" type="outlined"
                     >Ver proyecto</ButtonsButton
                   >
@@ -116,6 +132,12 @@ const changeStart = () => {
   #carousel-projects > .swiper-wrapper > .swiper-slide-next {
     transform: scale(1.5);
     opacity: 1 !important;
+  }
+  #carousel-projects > .swiper-wrapper > .swiper-slide > div > .tecnologies {
+    @apply !duration-500
+  }
+  #carousel-projects > .swiper-wrapper > .swiper-slide-next > div > .tecnologies {
+   @apply !duration-1000 opacity-100
   }
 }
 .h3Start {

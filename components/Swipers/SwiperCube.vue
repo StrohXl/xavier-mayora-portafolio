@@ -13,6 +13,7 @@ const modules = [EffectCube];
       delay: 2500,
       disableOnInteraction: false,
     }"
+    :loop="true"
     :cubeEffect="{
       shadow: true,
       slideShadows: true,
