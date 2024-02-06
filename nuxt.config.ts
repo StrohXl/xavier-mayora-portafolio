@@ -18,7 +18,7 @@ export default defineNuxtConfig({
       ],
       meta: [
         { name: "og:title", content: "Xavier Mayora Full Stack Developer" },
-        { name: "og:image", content: "/contact-us.png" },
+        { name: "og:image", content: "/image-hero.png" },
         {
           name: "og:description",
           content:
