@@ -1,9 +1,9 @@
 <template>
  <div>
-   <section class="relative overflow-hidden py-16 pb-24 mb-10 md:py-28 md:pb-36 2xl:py-44 2xl:pb-48 2xl:mb-16 bg-gray-900 text-white">
+   <section class="relative py-16 pb-20 mb-10 md:py-16 xl:py-28 2xl:py-44 2xl:pb-44 2xl:mb-16 bg-gray-900 text-white">
      <div class="relative z-10 grid md:grid-cols-2 max-w-5xl 2xl:max-w-6xl mx-auto">
        <div
-         class="mt-6 flex flex-col gap-1 md:gap-2 justify-center px-7 text-center md:text-left md:w-108 2xl:w-116"
+         class=" flex flex-col gap-1 md:gap-2 justify-center px-7 text-center md:text-left md:w-108 2xl:w-116"
        >
          <h2
            class="!text-4xl sm:!text-5xl dark:text-white tracking-wide"
@@ -40,9 +40,9 @@
          </div>
        </div>
      </div>
+     <CubesMove class="hidden lg:grid !top-1"/>
+     <CubesMove class="!top-auto bottom-0 hidden md:grid rotate-180 right-0" />
    </section>
-   <CubesMove class="hidden lg:grid"/>
-   <CubesMove class="!top-auto bottom-40 hidden md:grid 2xl:bottom-[113px] rotate-180 right-0" />
  </div>
 </template>
 <style>

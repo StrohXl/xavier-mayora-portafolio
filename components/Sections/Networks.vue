@@ -5,7 +5,7 @@
       <p class="text-center mt-10 font-semibold">
         Puedes comunicarte conmigo atravez de mis redes
       </p>
-      <div class="flex justify-center mt-8 gap-5">
+      <div class="flex justify-center mt-8 gap-5 px-7">
         <a class="border-1 p-[14px] rounded-full px-[16px] hover:border-primary hover:shadow-lg hover:shadow-primary/50" target="_blank" href="https://github.com/StrohXl">
           <Icon name="github" class="grayscale !text-2xl hover:filter-none" />
         </a>

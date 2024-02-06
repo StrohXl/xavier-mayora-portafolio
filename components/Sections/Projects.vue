@@ -27,7 +27,7 @@ const changeStart = () => {
     id="Projects"
     class="overflow-hidden py-10 2xl:py-16 max-w-5xl 2xl:max-w-6xl mx-auto md:px-7"
   >
-    <h2 class="text-center ">
+    <h2 class="text-center px-7 ">
       <span class="text-primaryDark dark:text-primary"> Proyectos </span>
       <span> Personales </span>
     </h2>

@@ -3,7 +3,7 @@ import ListItemNav from "~/data/listItemNav";
 </script>
 <template>
   <footer class="dark:bg-gray-800/50 bg-gray-900 text-white pt-16 pb-5 px-7">
-    <h2 class="text-center text-2xl font-bold flex justify-center">
+    <h2 class="text-center text-4xl font-bold flex justify-center">
       Porta
       <span class="text-primary dark:text-primaryDark"> folio </span>
     </h2>
