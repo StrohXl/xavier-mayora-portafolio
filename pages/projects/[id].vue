@@ -3,6 +3,13 @@ import { useRoute } from "vue-router";
 import dataProjects from "../../data/projects";
 const id = useRoute().params.id;
 const data = dataProjects.find((item) => item.seeProject.includes(`${id}`));
+useHead({
+  title: `Portafolio - ${data?.title}`,
+});
+useServerSeoMeta({
+  description:()=> data?.text,
+  ogDescription:()=>data?.text
+});
 </script>
 <template>
   <Layout>
@@ -14,8 +21,8 @@ const data = dataProjects.find((item) => item.seeProject.includes(`${id}`));
       :images="data?.images"
     />
     <SectionsTechnologies
-    :frontend="data?.tecnologies.frontend"
-    :backend="data?.tecnologies.backend"
+      :frontend="data?.tecnologies.frontend"
+      :backend="data?.tecnologies.backend"
     />
   </Layout>
 </template>

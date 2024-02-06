@@ -25,8 +25,8 @@ defineProps({
 }
 #button-contained {
   @apply text-lg 2xl:text-xl;
-  @apply px-7 py-0.5 bg-gradient-to-b from-primary to-green-600 text-white transition-colors duration-500 rounded-sm shadow-sm cursor-pointer font-medium;
-  @apply hover:to-primary  ;
+  @apply px-7 py-0.5 bg-gradient-to-b from-primary transition-all to-green-600 text-white duration-500 rounded-sm shadow-sm cursor-pointer font-medium;
+  @apply  hover:shadow-lg hover:shadow-primary/30 ;
 }
 
 #button-text {

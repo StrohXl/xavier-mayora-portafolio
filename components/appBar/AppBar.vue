@@ -11,7 +11,7 @@ onMounted(() => {
 </script>
 <template>
   <nav
-    class="max-w-5xl 2xl:max-w-6xl py-3 relative lg:mx-auto z-20 md:py-4 px-7 backdrop-blur-sm flex justify-between items-center"
+    class=" max-w-5xl 2xl:max-w-6xl py-3 relative lg:mx-auto z-20 md:py-4 px-7  flex justify-between items-center"
   >
     <h2
       class="font-extrabold !text-2xl md:!text-3xl"
@@ -44,16 +44,19 @@ onMounted(() => {
         <SwitchMode class="ml-2" />
       </li>
     </ul>
-    <div class="grid grid-cols-2 gap-4 items-center md:hidden translate-x-8">
+    <div class="grid grid-cols-2 gap-4 items-center md:hidden translate-x-8 ">
       <SwitchMode class="" />
       <ButtonsButtonIcon
         v-if="components.openDrawer === false"
         name="menu"
+        class="!text-white"
         @click.stop="components.changeOpenDrawer(true)"
       />
       <ButtonsButtonIcon
         v-if="components.openDrawer === true"
         name="close"
+        class="!text-white"
+
         @click.stop="components.changeOpenDrawer(false)"
       />
     </div>

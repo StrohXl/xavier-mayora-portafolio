@@ -26,11 +26,11 @@ onMounted(() => {
         <ButtonsButton
           @click="moveScroll('Contact')"
           type="contained"
-          class="w-fit relativez-10 call-to-action-button md:!text-xl 2xl:!text-2xl"
+          class="relative z-10 w-fit !px-10 !py-1 md:!px-14 md:!py-2 relativez-10 call-to-action-button md:!text-xl 2xl:!text-2xl"
           >Contáctame</ButtonsButton
         >
         <img
-          class="absolute h-40 -right-5 sm:right-2 -z-0 sm:h-48 md:h-52 xl:h-64 2xl:h-72"
+          class="absolute h-48 -right-5 sm:right-2 -z-0 sm:h-60 md:h-64 2xl:h-72"
           style="transform: translateY(-50%); top: 50%"
           src="/contact-us.png"
           alt="Contact-us"

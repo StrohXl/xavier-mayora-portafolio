@@ -22,36 +22,32 @@ import ListItemNav from "~/data/listItemNav";
         </NuxtLink>
       </li>
     </ul>
-    <div class="flex justify-center mt-10 gap-3">
-      <a
-        class="dark:grayscale dark:hover:grayscale-0 "
-        target="_blank"
-        href="https://github.com/StrohXl"
-      >
-        <Icon name="github" class="hover:tra !text-xl hover:filter-none" />
-      </a>
-      <a
-        class="dark:grayscale dark:hover:grayscale-0 "
-        target="_blank"
-        href="https://api.whatsapp.com/send?phone=+5804126947694&text=Hola"
-      >
-        <Icon name="whatsapp" class="hover:tra !text-xl" filled />
-      </a>
-      <a
-        class="dark:grayscale dark:hover:grayscale-0 "
-        target="_blank"
-        href="https://www.linkedin.com/in/xavier-mayora-083874255/"
-      >
-        <Icon filled name="linkedin" class="hover:tra !text-xl" />
-      </a>
-      <a
-        class="dark:grayscale dark:hover:grayscale-0 "
-        target="_blank"
-        href="mailto:xaviermayora20@gmail.com?subject=Developer Full Stack&body=Hola"
-      >
-        <Icon filled name="gmail" class="hover:tra !text-xl" />
-      </a>
-    </div>
+  <div class="flex justify-center mt-8 gap-5">
+        <a class="border-1 p-[12px] rounded-full px-[14px] hover:border-primary hover:shadow-lg hover:shadow-primary/50" target="_blank" href="https://github.com/StrohXl">
+          <Icon name="github" class="grayscale !text-xl hover:filter-none" />
+        </a>
+        <a
+          class="border-1 p-[12px] rounded-full px-[14px] hover:border-primary hover:shadow-lg hover:shadow-primary/50"
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=+5804126947694&text=Hola"
+        >
+          <Icon name="whatsapp" class="grayscale !text-xl" filled />
+        </a>
+        <a
+          class="border-1 p-[12px] rounded-full px-[14px] hover:border-primary hover:shadow-lg hover:shadow-primary/50"
+          target="_blank"
+          href="https://www.linkedin.com/in/xavier-mayora-083874255/"
+        >
+          <Icon filled name="linkedin" class="grayscale !text-xl" />
+        </a>
+        <a
+          class="border-1 p-[12px] rounded-full px-[14px] hover:border-primary hover:shadow-lg hover:shadow-primary/50"
+          target="_blank"
+          href="mailto:xaviermayora20@gmail.com?subject=Developer Full Stack&body=Hola"
+        >
+          <Icon filled name="gmail" class="grayscale !text-xl" />
+        </a>
+      </div>
     <p class="text-center mt-10">Creado por Xavier Mayora 2024</p>
   </footer>
 </template>

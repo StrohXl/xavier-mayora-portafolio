@@ -16,7 +16,7 @@ const components = useOpenComponents();
     :class="components.openDrawer? 'h-screen':'h-fit'"
   >
     <div
-      class="dark:bg-gray-900/90 p-7 backdrop-blur-sm border-b-1 border-gray-800 w-full bg-gray-100/90"
+      class="bg-gray-900/90 p-7 pt-16 backdrop-blur-sm border-b-1 border-gray-800 w-full "
     >
       <ul class="grid gap-3">
         <li
@@ -34,29 +34,29 @@ const components = useOpenComponents();
         </li>
       </ul>
       <div class="flex justify-center mt-20 gap-5">
-        <a class="dark:grayscale dark:hover:grayscale-0" target="_blank" href="https://github.com/StrohXl">
-          <Icon name="github" class="hover:tra !text-3xl hover:filter-none" />
+        <a class=" border-1 rounded-full p-[14px] px-[16px] hover:border-primary hover:shadow-lg hover:shadow-primary/50 " target="_blank" href="https://github.com/StrohXl">
+          <Icon name="github" class="!text-xl grayscale hover:filter-none" />
         </a>
         <a
-          class="dark:grayscale dark:hover:grayscale-0"
+          class=" border-1 rounded-full p-[14px] px-[16px] hover:border-primary hover:shadow-lg hover:shadow-primary/50"
           target="_blank"
           href="https://api.whatsapp.com/send?phone=+5804126947694&text=Hola"
         >
-          <Icon name="whatsapp" class="hover:tra !text-3xl" filled />
+          <Icon name="whatsapp" class=" !text-xl grayscale" filled />
         </a>
         <a
-          class="dark:grayscale dark:hover:grayscale-0"
+          class=" border-1 rounded-full p-[14px] px-[16px] hover:border-primary hover:shadow-lg hover:shadow-primary/50"
           target="_blank"
           href="https://www.linkedin.com/in/xavier-mayora-083874255/"
         >
-          <Icon filled name="linkedin" class="hover:tra !text-3xl" />
+          <Icon filled name="linkedin" class="!text-xl grayscale" />
         </a>
         <a
-          class="dark:grayscale dark:hover:grayscale-0"
+          class=" border-1 rounded-full p-[14px] px-[16px] hover:border-primary hover:shadow-lg hover:shadow-primary/50"
           target="_blank"
           href="mailto:xaviermayora20@gmail.com?subject=Developer Full Stack&body=Hola"
         >
-          <Icon filled name="gmail" class="hover:tra !text-3xl" />
+          <Icon filled name="gmail" class="!text-xl grayscale" />
         </a>
       </div>
     </div>

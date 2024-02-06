@@ -179,7 +179,7 @@ const dataProjects = [
       "projects/digimon/digimon-3.png",
       "projects/digimon/digimon-4.png",
     ],
-    text: "Primer proyecto elaborado en React.Js, que tiene como objetivo promocionar los Servicios y las Playas que ofrece el parque nacional Mochima ademas de ofrecer informacion historica como su geolocalización.",
+    text: "Este proyecto fue elaborado como prueba para un posible puesto como desarrollador, el proyecto fue elaborado en Vue 3 con tailwind y tiene como objetivo funcionar como un wikipedia de Digimones haciendo solicitudes Get a una api llamada digi.api",
     icon: "/projects/beach.svg",
     tecnologies: {
       frontend: [

@@ -23,7 +23,7 @@ defineProps(["frontend", "backend"]);
       >
         <Icon
           filled
-          class="!text-6xl dark:transition-transform dark:duration-700 md:!text-7xl dark:grayscale dark:hover:grayscale-0"
+          class="!text-6xl transition-transform duration-700 md:!text-7xl grayscale "
           :name="item.icon"
         />
         <h4 class="text-center font-bold mt-2">{{ item.title }}</h4>
@@ -41,7 +41,7 @@ defineProps(["frontend", "backend"]);
       >
         <Icon
           filled
-          class="!text-6xl md:!text-7xl dark:grayscale dark:hover:grayscale-0"
+          class="!text-6xl md:!text-7xl grayscale "
           :name="item.icon"
         />
         <h4 class="text-center font-bold mt-2">{{ item.title }}</h4>

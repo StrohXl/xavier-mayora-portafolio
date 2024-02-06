@@ -31,7 +31,7 @@ import Skills from "../../data/skills";
             >
               <Icon
                 filled
-                class="!text-6xl dark:grayscale dark:hover:grayscale-0  dark:transition-transform dark:duration-700"
+                class="!text-6xl grayscale  transition-transform duration-700"
                 :name="item.icon"
               />
               <h4 class="text-center font-bold mt-2">{{ item.title }}</h4>

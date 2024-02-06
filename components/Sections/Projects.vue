@@ -49,7 +49,7 @@ const changeStart = () => {
               :src="item.images[0]"
               :alt="`image ${item.title}`"
             />
-            <div class="tecnologies transition-opacity  opacity-100 md:opacity-0 absolute flex gap-2 pl-7 sm:pl-4 md:pl-2 py-1 w-full bottom-0 bg-gray-900/90 overflow-hidden">
+            <div class="tecnologies transition-opacity  opacity-100 md:opacity-0 absolute flex gap-2 pl-7 sm:pl-4 md:pl-2 py-1 w-full bottom-0 bg-gray-900/90 dark:bg-gray-100/80 overflow-hidden">
               <nuxt-icon
                 filled
                 class="text-xl sm:text-4xl md:text-sm xl:text-xl"
@@ -126,12 +126,20 @@ const changeStart = () => {
 
 @media screen and (width >= 768px) {
   #carousel-projects > .swiper-wrapper > .swiper-slide {
+    @apply bg-gray-900;
     transition: 0.4s;
-    opacity: 0.5;
+
+  }
+  #carousel-projects > .swiper-wrapper > .swiper-slide > div > picture {
+    transition: 0.4s;
+    opacity: .5;
+  }
+  #carousel-projects > .swiper-wrapper > .swiper-slide-next > div > picture {
+    opacity: 1;
   }
   #carousel-projects > .swiper-wrapper > .swiper-slide-next {
     transform: scale(1.5);
-    opacity: 1 !important;
+  
   }
   #carousel-projects > .swiper-wrapper > .swiper-slide > div > .tecnologies {
     @apply !duration-500
