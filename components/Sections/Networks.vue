@@ -1,7 +1,7 @@
 <template>
   <section id="Contact">
     <div class="pb-20 2xl:pb-32">
-      <h2 class="text-center text-3xl">Contáctame</h2>
+      <h2 class="text-center">Contáctame</h2>
       <p class="text-center mt-10 font-semibold">
         Puedes comunicarte conmigo atravez de mis redes
       </p>

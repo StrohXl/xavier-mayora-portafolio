@@ -12,7 +12,7 @@ import Skills from "../../data/skills";
     class="pt-24 pb-10 max-w-5xl 2xl:max-w-6xl mx-auto 2xl:pt-32 2xl:pb-16"
   >
     <div>
-      <h2 class="text-center text-3xl md:text-4xl">Habilidades</h2>
+      <h2 class="text-center text-4xl">Habilidades</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 px-7">
         <div class="mt-16 md:mt-20" v-for="i in Skills" v-bind:key="i.title">
           <h3 class="text-center text-2xl sm:text-3xl font-bold">

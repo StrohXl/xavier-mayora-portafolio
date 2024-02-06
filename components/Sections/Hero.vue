@@ -24,7 +24,7 @@
        </div>
        <div class="px-7 md:mt-3 md:w-108 text-sm 2xl:w-116">
          <p
-           class="text-center md:text-base md:text-left max-w-xl mx-auto 2xl:text-lg"
+           class="text-center text-base md:text-left max-w-xl mx-auto 2xl:text-lg"
          >
            La tecnología es una pieza crucial en nuestras vidas. Es importante
            que estemos al tanto de los últimos avances tecnológicos y cómo
@@ -50,7 +50,7 @@
   width: 100%;
 }
 .image-hero >img{
-  width: 100%;
+  width: 100% ;
   max-width: 100%;
 }
 @keyframes epale{

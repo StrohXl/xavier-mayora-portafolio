@@ -14,7 +14,7 @@ onMounted(() => {
     class=" max-w-5xl 2xl:max-w-6xl py-3 relative lg:mx-auto z-20 md:py-4 px-7  flex justify-between items-center"
   >
     <h2
-      class="font-extrabold !text-2xl md:!text-3xl"
+      class="font-extrabold !text-3xl"
       @click="components.changeOpenDrawer(false)"
     >
       <NuxtLink class="flex" to="/" @click="moveScroll('Hero')">
