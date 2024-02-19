@@ -22,32 +22,7 @@ import ListItemNav from "~/data/listItemNav";
         </NuxtLink>
       </li>
     </ul>
-  <div class="flex justify-center mt-8 gap-5">
-        <a class="border-1 p-[12px] rounded-full px-[14px] hover:border-primary hover:shadow-lg hover:shadow-primary/50" target="_blank" href="https://github.com/StrohXl">
-          <Icon name="github" class="grayscale !text-xl hover:filter-none" />
-        </a>
-        <a
-          class="border-1 p-[12px] rounded-full px-[14px] hover:border-primary hover:shadow-lg hover:shadow-primary/50"
-          target="_blank"
-          href="https://api.whatsapp.com/send?phone=+5804126947694&text=Hola"
-        >
-          <Icon name="whatsapp" class="grayscale !text-xl" filled />
-        </a>
-        <a
-          class="border-1 p-[12px] rounded-full px-[14px] hover:border-primary hover:shadow-lg hover:shadow-primary/50"
-          target="_blank"
-          href="https://www.linkedin.com/in/xavier-mayora-083874255/"
-        >
-          <Icon filled name="linkedin" class="grayscale !text-xl" />
-        </a>
-        <a
-          class="border-1 p-[12px] rounded-full px-[14px] hover:border-primary hover:shadow-lg hover:shadow-primary/50"
-          target="_blank"
-          href="mailto:xaviermayora20@gmail.com?subject=Developer Full Stack&body=Hola"
-        >
-          <Icon filled name="gmail" class="grayscale !text-xl" />
-        </a>
-      </div>
+    <IconsNetworks class="!mt-8" p="15px" px="16px" text="!text-xl" />
     <p class="text-center mt-10">Creado por Xavier Mayora 2024</p>
   </footer>
 </template>

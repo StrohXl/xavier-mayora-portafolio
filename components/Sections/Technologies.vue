@@ -23,7 +23,7 @@ defineProps(["frontend", "backend"]);
       >
         <Icon
           filled
-          class="!text-6xl transition-transform duration-700 md:!text-7xl grayscale "
+          class="!text-6xl transition-transform duration-700 md:!text-7xl grayscale"
           :name="item.icon"
         />
         <h4 class="text-center font-bold mt-2">{{ item.title }}</h4>
@@ -38,10 +38,12 @@ defineProps(["frontend", "backend"]);
         v-for="(item, index) in backend"
         v-bind:key="index"
         class="flex justify-center items-center flex-col"
+        id="cardTecnologies"
+
       >
         <Icon
           filled
-          class="!text-6xl md:!text-7xl grayscale "
+          class="!text-6xl md:!text-7xl grayscale transition-transform duration-700"
           :name="item.icon"
         />
         <h4 class="text-center font-bold mt-2">{{ item.title }}</h4>

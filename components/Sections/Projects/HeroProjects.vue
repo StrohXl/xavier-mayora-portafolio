@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-defineProps(["title", "title2", "parrafo", "linkPage", "nameIcon", "images"]);
+defineProps(["title", "title2", "parrafo", "linkPage", "nameIcon", "images", "linkRepo"]);
 import { Swiper, SwiperSlide } from "swiper/vue";
 </script>
 <template>
@@ -21,7 +21,7 @@ import { Swiper, SwiperSlide } from "swiper/vue";
           <swiper-slide
             v-for="(item, index) in images"
             v-bind:key="index"
-            ><NuxtPicture :src="item" />
+            ><NuxtPicture class="imageHeroProject" :src="item" />
           </swiper-slide>
         </SwipersSwiperCube>
       </div>
@@ -31,10 +31,15 @@ import { Swiper, SwiperSlide } from "swiper/vue";
         >
           {{ parrafo }}
         </p>
-        <div class="flex justify-center md:justify-start">
+        <div class="flex justify-center md:justify-start gap-3">
           <a :href="linkPage" target="_blank">
             <ButtonsButton type="contained" class="mt-8"
               >Ver Pagina</ButtonsButton
+            >
+          </a>
+          <a :href="linkRepo" target="_blank">
+            <ButtonsButton type="contained" class="mt-8"
+              >Ver Repositorio</ButtonsButton
             >
           </a>
         </div>
@@ -42,3 +47,8 @@ import { Swiper, SwiperSlide } from "swiper/vue";
     </div>
   </section>
 </template>
+<style>
+.imageHeroProject > img{
+  width: 100% !important;
+}
+</style>

@@ -19,6 +19,7 @@ useServerSeoMeta({
       :nameIcon="data?.icon"
       :linkPage="data?.linkProject"
       :images="data?.images"
+      :linkRepo="data?.linkRepo"
     />
     <SectionsTechnologies
       :frontend="data?.tecnologies.frontend"

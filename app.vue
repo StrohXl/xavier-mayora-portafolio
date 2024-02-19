@@ -11,7 +11,7 @@ body {
   @apply dark:bg-gray-900 bg-gray-100/90 dark:text-white text-gray-800;
 }
 html{
-  scrollbar-color: #00c16a #1f2937;
+  scrollbar-color: #00c16a rgb(243 244 246 / 0.9);
   scrollbar-width: thin;
 }
 h2 {
