@@ -4,9 +4,9 @@ defineProps(["frontend", "backend"]);
 <template>
   <section
     id="Technologies"
-    class="px-7 pb-20 pt-10 2xl:pb-32 2xl:pt-0 max-w-5xl 2xl:max-w-6xl mx-auto"
+    class="px-7 pb-20 pt-16 2xl:pb-32 xl:pt-20  max-w-5xl 2xl:max-w-6xl mx-auto"
   >
-    <h2 class="text-center">Tecnologías</h2>
+    <h2 class="text-center">Tecnologías usadas</h2>
     <div
       class="grid grid-cols-3 justify-center items-center mt-10 md:grid-cols-4 gap-y-5 md:mt-20 sm:px-10 md:px-20"
     >

@@ -23,21 +23,8 @@ const Skills: { title: string; skills: { title: string; icon: string }[] }[] = [
         icon: "skills/vue",
       },
       {
-        title: "Next",
-        icon: "skills/nextjs",
-      },
-      {
         title: "Sass",
         icon: "skills/sass",
-      },
-      {
-        title: "Redux",
-        icon: "skills/redux",
-      },
-
-      {
-        title: "Nuxt",
-        icon: "skills/nuxt",
       },
       {
         title: "Vuetify",
@@ -47,7 +34,6 @@ const Skills: { title: string; skills: { title: string; icon: string }[] }[] = [
         title: "Tailwindcss",
         icon: "skills/tailwindcss",
       },
-
       {
         title: "Material UI",
         icon: "skills/materialui",
@@ -82,10 +68,7 @@ const Skills: { title: string; skills: { title: string; icon: string }[] }[] = [
         title: "MySQL",
         icon: "skills/mysql",
       },
-      {
-        title: "Git",
-        icon: "skills/git",
-      },
+
       {
         title: "ExpressJs",
         icon: "skills/expressjs",

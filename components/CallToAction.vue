@@ -14,7 +14,7 @@ onMounted(() => {
     <div class="mx-auto max-w-5xl 2xl:max-w-6xl">
       <div
         id="call-to-action"
-        class="md:mx-7 px-7 py-12 xl:py-16 flex flex-col gap-6 2xl:gap-10 justify-between relative md:rounded-md"
+        class="md:mx-7 px-7 py-6 sm:py-12 xl:py-16 flex flex-col gap-6 2xl:gap-10 justify-between relative md:rounded-md"
       >
         <h2
           class="relative text-white z-10 !text-3xl md:!text-4xl 2xl:!text-5xl"
@@ -30,7 +30,7 @@ onMounted(() => {
           >Contáctame</ButtonsButton
         >
         <img
-          class="absolute h-48 -right-5 sm:right-2 -z-0 sm:h-60 md:h-64 2xl:h-72"
+          class="absolute opacity-75 sm:opacity-100 h-48 -right-5 sm:right-2 -z-0 sm:h-60 md:h-64 2xl:h-72"
           style="transform: translateY(-50%); top: 50%"
           src="/contact-us.png"
           alt="Contact-us"

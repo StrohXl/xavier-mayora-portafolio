@@ -25,14 +25,14 @@ const changeStart = () => {
 <template>
   <section
     id="Projects"
-    class="overflow-hidden py-10 pt-0 2xl:py-16 2xl:pt-0 max-w-5xl 2xl:max-w-6xl mx-auto md:px-7"
+    class="overflow-hidden pt-20 2xl:pt-32 pb-10 2xl:pb-12 py-102xl:py-16  max-w-5xl 2xl:max-w-6xl mx-auto md:px-7"
   >
     <h2 class="text-center px-7 ">
       <span class="text-primaryDark dark:text-primary"> Proyectos </span>
       <span> Principales </span>
     </h2>
 
-    <div class="md:mt-14">
+    <div class="md:mt-6 xl:mt-12">
       <SwipersSwiper
         :onSlideChangeStart="changeStart"
         :onSlideChangeEnd="changeEnd"

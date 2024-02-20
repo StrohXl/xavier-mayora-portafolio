@@ -1,7 +1,7 @@
 <template>
   <div>
     <section
-      class="relative py-16 pb-20 mb-10 md:py-16 xl:py-28 2xl:py-44 2xl:pb-44 2xl:mb-16 bg-gray-900 text-white"
+      class="relative py-16 pb-20 mb-10 md:py-16 xl:py-28 2xl:py-44 2xl:pb-44 2xl:mb-16  bg-gradient-to-b  from-gray-900 dark:to-gray-900 to-gray-950 w-full  text-white"
     >
       <div
         class="relative z-10 grid md:grid-cols-2 max-w-5xl 2xl:max-w-6xl mx-auto"
@@ -13,7 +13,7 @@
             Xavier Mayora
           </h2>
           <h1
-            class="!text-4xl font-bold sm:!text-5xl text-primary maryDark tracking-wide"
+            class="!text-3xl sm:!text-4xl font-bold  text-primary maryDark tracking-wide"
           >
             Full Stack Developer
           </h1>
@@ -33,7 +33,7 @@
           <p
             class="text-center text-base md:text-left max-w-xl mx-auto 2xl:text-lg"
           >
-            La tecnología es una pieza crucial en nuestras vidas. Es importante
+            La tecnología es una pieza crucial en el dia a dia de cada persona. Debido a eso es importante
             que estemos al tanto de los últimos avances tecnológicos y cómo
             podemos usarlos para mejorar nuestras vidas.
           </p>

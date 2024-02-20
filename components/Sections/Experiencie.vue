@@ -1,6 +1,6 @@
 <template>
   <section id="Experiencie">
-    <div class="pt-5 pb-20 2xl:pb-32 px-7 mx-auto max-w-5xl 2xl:max-w-6xl">
+    <div class="pt-5  px-7 mx-auto max-w-5xl 2xl:max-w-6xl">
       <h2 class="text-center text-3xl md:text-4xl 2xl:text-5xl">Experiencia</h2>
       <ul class="mt-16 md:mt-20">
         <li>

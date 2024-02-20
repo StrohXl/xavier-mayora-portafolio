@@ -35,7 +35,7 @@ const listItemNav: ModelListItem[] = [
     ],
   },
   {
-    title: "Habilidades",
+    title: "Tecnologías",
     position: "skills",
     id: "Skills",
     icon: "",
